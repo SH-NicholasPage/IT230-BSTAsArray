@@ -34,19 +34,19 @@
             Console.WriteLine("Starting tree...");
             Console.WriteLine(bst);
 
-            doDeletion(bst, 4);
-            doDeletion(bst, 10);
-            doDeletion(bst, 56);
+            DoDeletion(bst, 4);
+            DoDeletion(bst, 10);
+            DoDeletion(bst, 56);
 
             Console.WriteLine("Adding 55...");
             bst.Insert(55);
             Console.WriteLine(bst);
 
-            doDeletion(bst, 50);
+            DoDeletion(bst, 50);
         }
 
         //DO NOT MODIFY THIS METHOD
-        public static void doDeletion(BinarySearchTreeArray<int> bst, int value)
+        public static void DoDeletion(BinarySearchTreeArray<int> bst, int value)
         {
             Console.WriteLine("\n===============================");
             bst.Delete(value);

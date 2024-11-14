@@ -21,7 +21,7 @@ namespace BSTAsArray
         public override String ToString()
         {
             //TODO
-            return base.ToString();
+            return null;
         }
     }
 }
